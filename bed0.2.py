@@ -1,6 +1,6 @@
 import random
 
-# version 0.1
+# version 0.2
 
 print ('bed #', end='')
 
@@ -30,8 +30,9 @@ bedPref  = ['Your bed has a',
 print(random.choice(bedPref), end=' ')
 
 mattDesc1 = ['premium memory foam',
-'sleep number',
+'Sleep Number',
 'classic spring',
+'water-filled',             
 'hybrid',
 'Eurotop']                
 print(random.choice(mattDesc1), end=' ')
@@ -40,7 +41,9 @@ mattDesc2 = ['round',
 'daybed',
 'king',
 'twin XL',
+'bloodcell-shaped',             
 'full',
+'nest-shaped',             
 'queen',
 'Alaska king',
 'twin',
@@ -57,6 +60,7 @@ bedSheets = ['silky',
 'real silk',
 'rose patterned',
 'pre-warmed',
+'warm velour',             
 'black butter-soft cotton',
 'cool blue',
 'impeccably clean white',
@@ -70,6 +74,7 @@ bedSheets = ['is covered in plush sharks.',
 'has a weighted blanket on top.',
 'smells like pumpkin spice.',
 'smells like chocolate chip cookies.',
+'smells like a chocolate bar.',             
 'smells like lavendar.',
 'has a gecko in a luxurious terrarium next to it; itself already asleep under its heatlamp.',
 'is exceptionally warm and cozy.',
@@ -90,5 +95,7 @@ bedSheets = ['is covered in plush sharks.',
 'has a giant unicorn plushy to keep you company.',
 'has advanced anti-nightmare technology.',
 'has a build-a-bear tucked into it.',
-'has a variety of massage functions.'] 
+'has a variety of massage functions.',
+'is vibrating as if it is purring',
+'is self-warming'] 
 print(random.choice(bedSheets))             
